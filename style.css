@@ -1,0 +1,36 @@
+html,body
+{
+	background: #BEC9CE;
+	overflow: hidden;
+}
+.hawk_moving
+{
+	position: relative;
+}
+
+.logo
+{
+	height: 400px;
+	width: 400px;
+	display: none;	
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 120px; right: 0;
+	background:url(logo.svg);
+	background-size:cover;
+}
+footer
+{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	font-family: 'Roboto';
+	font-size: 30px;
+}
+footer div
+{
+	display: none;
+	
+}
